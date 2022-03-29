@@ -1,0 +1,30 @@
+class Login {
+  
+  String usuario="";
+  String senha="";
+  String bancoUsuario="";
+  String bancoSenha="";
+  
+  
+  void autenticar(){
+    
+    var bancoUsuario = "gabrielgarcia98";
+    var bancoSenha = "123456";
+    
+    if (this.usuario == bancoUsuario && this.senha == bancoSenha){
+      print ("Usuário autenticado");
+      }else{
+      print("Usuário não autenticado");
+      }
+     }
+    }
+
+
+  void main() {
+    
+    Login obj = Login();
+    obj.usuario = "gabrielgarcia98";
+    obj.senha = "123456";
+    obj.autenticar();
+  
+}
